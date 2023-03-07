@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="calculeTaxe()">
+<table align="center">
+    <tr><th colspan="2"><h2>Gestion des produits</h2></th></tr>
+    <tr><td>Titre</td><td><input type="text" id="titre" required></td></tr>
+    <tr><td>Prix</td><td><input type="number" id="prix" required min="1"></td></tr>
+    <tr><td>quantite</td><td><input type="number" id="quantite" min="1"></td></tr>
+    <tr><th  colspan="2"><button type="submit">Evaluation</button></th></tr>
+
+</table>
+</form>
+</body>
+<script src="calcule.js"></script>
+</html>
