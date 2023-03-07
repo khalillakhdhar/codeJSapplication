@@ -1,0 +1,10 @@
+x1="123"
+x2=123
+b=x1===x2;
+b2=x1==x2;
+console.log(b);
+console.log(b2);
+res=Math.floor(7/3);
+console.log(res)
+resultat=7%3;
+console.log(resultat)
